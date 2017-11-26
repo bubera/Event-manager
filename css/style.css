@@ -1,0 +1,475 @@
+/* navbar styles*/
+.navbar{
+	margin-bottom: 20px;
+}
+.logo{
+	background: url("../img/logo2.jpg") no-repeat 0 0;
+	background-size: 100px 35px;
+	text-indent: -999999px;
+}
+.fa-home{
+	color: white;
+}
+.logreg{
+	display: none;	
+}
+.search-col{
+	width: 110px;
+}
+.logreg .nav-link{
+	color: #fff;
+	margin: 0;
+	padding: 5px;
+}
+.logreg-salon .nav-link{
+	color: #fff;
+	margin: 0;
+	padding: 5px;
+}
+.search-title{
+	color: #fff;
+	text-align: center;
+	font-weight: 800;
+}
+.search-by {
+	background-color: #FFFFFF;
+	padding-right: 15px;
+}
+label{
+	color: #C0C0C0;
+}
+.search-btn{
+	margin-top: 25px;
+	float: right;
+}
+/* description styles (home only) */
+.web-description{
+	color: #29B4F5;
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 400;
+	font-family: Georgia, Constantia, serif;
+
+}
+/* filter styles (index y servicios)*/
+.filter-title{
+	margin-bottom: 0;
+	font-weight: 800;
+	font-size: 1.25rem;
+}
+.filter-opt{
+	color: #000000;
+}
+/* result styles (index y servicios)*/
+.result-col{
+	height: 250px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.result-img{
+	max-height: 225px;
+}
+
+.result-heading{
+	text-align: center;
+	font-size: 1.5rem;
+	color: #000;
+	font-family: Verdana, sans-serif;
+}
+.result-p{
+		font-size: 0.7rem;
+}
+.fa-star, .fa-star-half-full, .fa-star-o{
+	color: orange;
+}
+.result-rating{
+	font-size: 1.2rem;
+	margin-top: 7px;
+}
+.result-info{
+	color: #000;
+	text-align: center;
+	display: none;
+	background-color: #D1D1D1;
+	padding: 5px;
+	border-radius: 5px;
+}
+.result-info:hover{
+	opacity: 0.85;
+}
+.pagination{
+	width: 20%;
+}
+
+/* Footer styles*/
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    padding: 10px;
+    width: 30px;
+}
+.fa-google-plus {
+    background: #dd4b39;
+    color: white;
+    padding: 10px;
+    width: 30px;
+}
+.fa-twitter {
+	background: #55ACEE;
+    color: white;
+    padding: 10px;
+    width: 30px;
+}
+
+
+/* Salon.html Styles */
+.return{
+	font-size: 0.6rem;
+	color: #000;
+	padding: 10px;
+	background: linear-gradient(#FF2A07,#FF7302);
+	border-radius: 3px;
+}
+.return:hover{
+	opacity: 0.8;
+}
+.salon-header{
+	font-size: 2rem;
+	font-weight: 900;
+	font-family: "Times New Roman", serif;
+}
+.salon-description{
+	width: 80%;
+	text-align: center;
+	margin: 20px auto 0;
+	font-size: 0.8rem;
+}
+.salon-data{
+	font-size: 0.6rem;
+	font-weight: 600;
+}
+.salon-services{
+	height: 350px;
+	color: #000000;
+	font-size: 0.7rem;
+	font-weight: 500;
+}
+.salon-ico{
+	width: 16px;
+	height: 16px;
+	margin-top: 3px;
+}
+.pelotero{
+	background:url("../img/ico/pelotero.png") no-repeat 0 0;
+}
+.inflable{
+	background:url("../img/ico/inflable.png") no-repeat 0 0;
+}
+.plaza{
+	background:url("../img/ico/infantil.png") no-repeat 0 0;
+}
+.futbol{
+	background:url("../img/ico/futbol.png") no-repeat 0 0;
+}
+.basquet{
+	background:url("../img/ico/basquet.png") no-repeat 0 0;
+}
+.juegos{
+	background:url("../img/ico/juegos.png") no-repeat 0 0;
+}
+.escalada{
+	background:url("../img/ico/escalar.png") no-repeat 0 0;
+}
+.metegol{
+	background:url("../img/ico/metegol.png") no-repeat 0 0;
+}
+.bungee{
+	background:url("../img/ico/bungee.png") no-repeat 0 0;
+}
+.tirolesa{
+	background:url("../img/ico/tirolesa.png") no-repeat 0 0;
+}
+.elastica{
+	background:url("../img/ico/elastica.png") no-repeat 0 0;
+}.tobogan{
+	background:url("../img/ico/tobogan.png") no-repeat 0 0;
+}
+.tejo{
+	background:url("../img/ico/cancha.png") no-repeat 0 0;
+}
+.baile{
+	background:url("../img/ico/baile.png") no-repeat 0 0;
+}
+.piñata{
+	background:url("../img/ico/piñata.png") no-repeat 0 0;
+}
+.karaoke{
+	background:url("../img/ico/karaoke.png") no-repeat 0 0;
+}
+.spa{
+	background:url("../img/ico/spa.png") no-repeat 0 0;
+}
+.led{
+	background:url("../img/ico/led.png") no-repeat 0 0;
+}
+.proyector{
+	background:url("../img/ico/proyector.png") no-repeat 0 0;
+}
+.wifi{
+	background:url("../img/ico/wifi.png") no-repeat 0 0;
+}
+.aire{
+	background:url("../img/ico/aire.png") no-repeat 0 0;
+}
+.animador{
+	background:url("../img/ico/animador.png") no-repeat 0 0;
+}
+.camareros{
+	background:url("../img/ico/camarero.png") no-repeat 0 0;
+}
+.cocina{
+	background:url("../img/ico/cocina.png") no-repeat 0 0;
+}
+.vajilla{
+	background:url("../img/ico/vajilla.png") no-repeat 0 0;
+}
+.invitacion{
+	background:url("../img/ico/invitacion.png") no-repeat 0 0;
+}
+.catering{
+	background:url("../img/ico/catering.png") no-repeat 0 0;
+}
+.foto{
+	background:url("../img/ico/foto.png") no-repeat 0 0;
+}
+.medico{
+	background:url("../img/ico/medico.png") no-repeat 0 0;
+}
+.dj{
+	background:url("../img/ico/dj.png") no-repeat 0 0;
+}
+.cotillon{
+	background:url("../img/ico/cotillon.png") no-repeat 0 0;
+}
+.opacity-5{
+	opacity: 0.2;
+}
+.salon-extra{
+	font-weight: 500;
+}
+.calendar{
+	font-size: 2rem;
+	margin: 0 30px;
+	color: #000;
+}
+.calendar:hover{
+	opacity: 0.5;
+}
+.salon-reservation, .lista{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.list{
+	text-align: center;
+	padding: 10px;
+	background: linear-gradient(#00C809,#00EF0B);
+	margin: 5px 0;
+	border-radius: 10px;
+}
+.list:hover{
+	background: linear-gradient(#00EF0B,#00C809);
+}
+.taken{
+	background: linear-gradient(#989898,#989898);
+}
+.taken:hover{
+	background: linear-gradient(#989898,#989898);
+	cursor: not-allowed;
+}
+.comment-box{
+	max-height: 300px;
+	overflow: auto;
+}
+.comment-display{
+	display: flex;
+	background-color: #DBDBDB;
+	margin: 10px;
+	border-radius: 20px;
+}
+.comment-user{
+	margin: 8px;
+	width: 25%;
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+.comment{
+	margin: 10px;
+}
+
+	/* gestor.html styles*/
+	/* gestion section */
+.gestor-tab{
+	padding: 3px;
+	background-color: #BCBDD7;
+	color: #000;
+	font-weight: 500;
+	width: 33%;
+	text-align: center;
+}
+.gestor-tab:hover{
+	color: #FFF;
+	background-color: #000;
+}
+.activo{
+	color: #FFF;
+	background-color: #000;
+}
+.reservation-container{
+	height: 175px;
+}
+.reserved{
+	background-color: #3EAD25;
+}
+.pending{
+	background-color: #D2CD3C;
+}
+.free{
+	background-color: #D64242;
+}
+.reservation-description{
+	height: 100px;
+	max-height: 100px;
+	min-height: 100px;
+}
+.reservation-buttons{
+	background-color: #4262EC;
+	color: #FFF;
+	padding: 3px;
+	font-size: 0.7rem;
+	border-radius: 5px;
+	box-shadow: 3px 3px 5px grey;
+}
+.reservation-buttons:hover{
+	opacity: 0.8;
+}
+
+
+	/* datos section */
+.datos_form label{
+	color: #000;
+	font-weight: 400;
+}
+.datos_form p{
+	font-weight: 400;
+}
+.datos_input{
+	font-size: 0.75rem;
+}
+.datos_form textarea{
+	height: 200px;
+}
+.datos_checkbox label{
+	font-size: 0.75rem;
+}
+
+.log-msg{
+	margin: auto;
+	font-size: 2rem;
+	font-weight: 600;
+	color: red;
+}
+
+
+.muestra{
+	width: 30%;
+	height: auto;
+}
+
+	/* sm en adelante*/
+@media (min-width: 577px){
+	.web-description{
+		font-size: 2rem;
+	}
+	.return{
+		font-size: 0.75rem;
+	}
+	.salon-header{
+		font-size: 3rem;
+	}
+	.salon-description{
+		font-size: 1rem;
+	}
+	.salon-data{
+		font-size: 1rem;
+	}
+	.salon-services{
+		height: 200px;
+	}
+	.result-p{
+		font-size: 1rem;
+	}
+	.datos_form p{
+	font-size: 1.5rem;
+	}
+	.datos_checkbox label{
+	font-size: 1.2rem;
+	}
+	.datos_input{
+	font-size: 1rem;
+	}
+}
+
+	/* md en adelante*/
+@media (min-width:768px){
+	.search-box{
+	height: 170px;
+	}
+	.result-info{
+		display: initial;
+	}
+	.salon-services{
+		font-size: 0.9rem;
+	}
+	.result-heading{
+		font-size: 2.5rem;
+	}
+	.salon-data{
+		font-size: 1.5rem;
+	}
+	.comment-rating{
+		margin: 0 auto;
+	}
+	.comment-feedback{
+		width: 50%;
+	}
+	#rateYo{
+		width: 50%;
+		margin-left: 25%;
+	}
+}
+
+	/* lg en adelante */
+@media (min-width:992px){
+	.logreg{
+		display: inline-flex;
+		margin-left: 70%;
+	}
+	 .nav-link{
+	 	display: block;
+	 }
+	.comment-box{
+		width: 75%;
+	}
+}
+	/* xl en adelante */
+@media(min-width: 1200px){
+	.logreg{
+		margin-left: 105%;
+	}
+}
+

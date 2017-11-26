@@ -1,0 +1,5 @@
+
+$(".accept").on('click', function(){
+	
+	
+});
